@@ -29,7 +29,7 @@ If you're interested in a similar design or just want to explore and play around
 
 Check out the live demo to see the project in action!
 
-[Live Demo](link_to_live_demo)
+[Live Demo](https://addevin.github.io/web-digital-text/)
 
 ![Demo](./preview/Screenshot_2024-02-02_191311.png)
 
