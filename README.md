@@ -1,4 +1,4 @@
-# Project Title
+# Web based digital text display
 
 ## Overview
 
