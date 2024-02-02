@@ -49,7 +49,7 @@ Clone the repository and navigate to the project directory. To run the app, open
 git clone https://github.com/addevin/web-digital-text
 
 # Navigate to the project directory
-cd your-repo
+cd web-digital-text
 
 # Run the app:
 # Simply open the 'index.html' file in your web browser
