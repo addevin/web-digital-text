@@ -18,11 +18,12 @@ If you're interested in a similar design or just want to explore and play around
 
 ## Features
 
-List the key features of your web-based digital text. You can include both functional and non-functional features. Consider using bullet points for better readability.
+- **Digital Text Display:** Enjoy a visually appealing digital text display, reminiscent of a digital clock. Watch as the text updates and animates for a delightful user experience.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- **Edit Text Functionality:** Easily modify the displayed text to make it your own. Whether you want to add a personal touch or experiment with different phrases, the app allows seamless text editing.
+
+- **Customize Letter Styles:** Tailor the appearance of your digital text by customizing letter styles. Experiment with fonts, sizes, and colors to create a unique and eye-catching display.
+
 
 ## Demo
 
@@ -36,7 +37,7 @@ Check out the live demo to see the project in action!
 
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript
 
 
 ## Installation
@@ -45,7 +46,7 @@ Clone the repository and navigate to the project directory. To run the app, open
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/addevin/web-digital-text
 
 # Navigate to the project directory
 cd your-repo
