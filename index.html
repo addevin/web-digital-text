@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Text</title>
+</head>
+<body>
+    <style>
+        
+    </style>
+    <!-- <div class="digitalTextContainer">
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints"></div>
+        <div class="textPoints"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints "></div>
+        <div class="textPoints "></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+        <div class="textPoints textPoints-active"></div>
+    </div> -->
+    <div class="pageContainer">
+        <p style="color: red;">Even error message couldn't come here!</p>
+        <noscript>
+            <p style="color: red; font-weight: 900;">Seems you have disabled javascript, but to run this app you need to enable javascript!</p>
+
+        </noscript>
+        <div>
+            <button onclick="startApp()">Retry</button>
+
+        </div>
+    </div>
+    <script src="./digitalText.min.js"></script>
+    <script>
+        const mssgs = ['Still the issue with the digital text','Nothing to say, you are totally fucked up','Something went wrong!'];
+        let retriedCount = 1;
+        function startApp(){
+            retriedCount = retriedCount < mssgs.length-1?retriedCount+1:0;
+            document.querySelectorAll('p')[0].innerText = mssgs[retriedCount];
+            (new DigitalText).init({count:15, selector:'.pageContainer'});
+        }
+        startApp();
+    </script>
+</body>
+</html>
